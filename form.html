@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Survey</title>
+    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="form-page">
+    <header>
+        <h1>Form Survey</h1>
+    </header>
+    <main>
+        <form id="survey-form">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="birthdate">Tanggal Lahir:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+            
+            <label for="gender">Jenis Kelamin:</label>
+            <select id="gender" name="gender" required>
+                <option value="" disabled selected>Pilih jenis kelamin</option>
+                <option value="male">Laki-laki</option>
+                <option value="female">Perempuan</option>
+                <option value="other">Lainnya</option>
+            </select>
+            
+            <label for="preferences">Anggota Favorit:</label>
+            <div class="radio-group">
+                <label><input type="radio" name="preference" value="Yojiro Noda"> Yojiro Noda</label>
+                <label><input type="radio" name="preference" value="Akira Kuwahara"> Akira Kuwahara</label>
+                <label><input type="radio" name="preference" value="Yusuke Takeda"> Yusuke Takeda</label>
+            </div>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="suggestions">Saran:</label>
+            <textarea id="suggestions" name="suggestions"></textarea>
+            
+            <button type="submit">Kirim</button>
+        </form>
+        <div id="result"></div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ryan syaputra maulana arsad. 20220140025 PDW Excercise 2</p>
+    </footer>
+    <script src="form.js"></script>
+</body>
+</html>

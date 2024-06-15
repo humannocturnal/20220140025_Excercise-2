@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RADWIMPS</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>RADWIMPS</h1>
+    </header>
+    <main>
+        <section class="media-section">
+            <h2>Penjelasan tentang RADWIMPS</h2>
+            <p>Radwimps adalah band rock Jepang yang dibentuk pada tahun 2001 oleh Yojiro Noda bersama teman-teman SMA-nya di Kanagawa. Nama "Radwimps" merupakan kombinasi dari kata "rad" (hebat) dan "wimps" (pengecut), mencerminkan dualitas dalam musik dan lirik mereka. Anggota band terdiri dari Yojiro Noda (vokalis dan gitaris), Akira Kuwahara (gitaris utama), Yusuke Takeda (bassis), dan Satoshi Yamaguchi (drummer hingga 2015). </p>
+            <div class="media-content">
+                <div class="audio-player">
+                    <h3>RADWIMPS - Sparkle</h3>
+                    <input type="range" id="seek-slider" value="0" max="100">
+                    <div class="time-info">
+                        <span id="current-time">00:00</span>
+                        <span id="duration">03:01</span>
+                    </div>
+                    <button class="play-pause-btn" id="play-pause-btn">Play</button>
+                    <audio id="audio-player">
+                        <source src="Kimi no Na wa - Sparkle_default.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <p class="media-caption">Salah satu lagu RADWIMPS yang terkenal adalah sparkle</p>
+                </div>
+                <div class="media-item">
+                    <video controls>
+                        <source src="Kimi no Na wa. (Your Name) Orchestra Concert「Sparkle - RADWIMPS」.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p class="media-caption">Lagu ini digunakan untuk soundtrack film Kimi No Nawa/Your Name pada tahun 2016</p>
+                </div>
+                <div class="media-item">
+                    <img src="RADWIMPS.jpg" alt="Sample Image">
+                    <p class="media-caption">Ini merupakan foto para pemain bandnya  </p>
+                </div>
+            </div>
+        </section>
+        <button class="survey-button" onclick="window.location.href='form.html'">Survey</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ryan syaputra maulana arsad. 20220140025 PDW Excercise 2.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

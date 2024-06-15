@@ -1,0 +1,143 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    background-image: url('40.7m1kbc.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.media-section {
+    text-align: center;
+}
+
+.media-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.media-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.media-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.media-item {
+    width: 100%;
+    max-width: 600px;
+}
+
+.media-item video,
+.media-item img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.audio-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(51, 51, 51, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-bottom: 10px;
+}
+
+.audio-player h3 {
+    margin: 0 0 10px 0;
+}
+
+#seek-slider {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px 0;
+}
+
+.time-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    font-size: 0.9em;
+}
+
+.play-pause-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.play-pause-btn:hover {
+    background-color: #0056b3;
+}
+
+.media-caption {
+    font-size: 0.9em;
+    color: #050505;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.survey-button {
+    display: block;
+    width: 200px;
+    margin: 40px auto;
+    padding: 15px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.survey-button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
+    margin-top: 40px;
+}
